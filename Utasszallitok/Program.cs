@@ -7,6 +7,7 @@
             List<Repulo> Repulok = new();
             foreach (var sor in File.ReadAllLines("Utasszallitok.txt").Skip(1))
             {
+                //4.feladat
                 Repulok.Add(new Repulo(sor));
                 Console.WriteLine($"4.feladat \t Adatsorok száma: {Repulok.Count()}");
 
@@ -15,8 +16,10 @@
                 {
                     if (b.Típus == "")
                     {
-
+                        db
                     }
+                    //5.feladat
+                    Console.WriteLine($"5.Feladat \t Boeing típusok száma: {db}");
                 }
             }
         }
